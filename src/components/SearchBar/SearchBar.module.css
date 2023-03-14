@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Gloria+Hallelujah&display=swap');
+.input{
+    background: rgba(255, 255, 255, 0.301);
+    border-color: rgb(174, 217, 217);
+    color:black;
+    width: 100px;
+    height: 35px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: xx-large;
+    border-radius: 5px;
+    box-shadow: 5px 5px 5px 0px rgba(0,0,0,0.75);
+    margin: 10px;
+    
+}
+.contenedor{
+    border-style:solid;
+    padding: 10px;
+    background-color: greenyellow;
+    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    border-radius: 20px;
+}
+
+.boton{
+    font-family: 'Gloria Hallelujah', cursive;
+    background-color: rgba(64, 103, 6, 0.68);
+    border-radius: 5px;
+    color: rgb(255, 255, 255);
+    font-size: large;
+    box-shadow: 5px 5px 5px 0px rgba(0,0,0,0.75);
+    margin :10px;
+}
+
+.boton:hover{
+    -moz-box-shadow: 10px 10px 41px 28px rgba(0,0,0,0.76);
+box-shadow: 10px 10px 41px 28px rgba(0,0,0,0.76);
+}
