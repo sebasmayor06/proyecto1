@@ -14,9 +14,7 @@ render () {
         <div className={style.contenedor}>
         <SearchBar onSearch={this.props.onSearch}/>
         </div>
-    );
-
-    
+    )   
 }
 }
 

@@ -10,20 +10,7 @@
     box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
 }
 
-.boton{
-   font-family: 'Gloria Hallelujah', cursive;
-   background-color: rgba(64, 103, 6, 0.68);
-   border-radius: 5px;
-   color: rgb(255, 255, 255);
-   font-size: large;
-   box-shadow: 5px 5px 5px 0px rgba(0,0,0,0.75);
-   width: 200px;
-   height: 50px;
-}
-.boton:hover{
-    -moz-box-shadow: 10px 10px 41px 28px rgba(0, 0, 0, 0.737);
-box-shadow: 10px 10px 41px 28px rgba(0, 0, 0, 0.76);
-}
+
 .nav{
    background-color: rgb(118, 13, 156);
    height: 100px;
@@ -42,19 +29,12 @@ box-shadow: 10px 10px 41px 28px rgba(0, 0, 0, 0.76);
    padding: 5px;
    border-radius: 10px;
 }
-.Bienvenida{
-   background-color: black;
-   font-family: 'Gloria Hallelujah', cursive;
-   font-size: 50px;
-    display:flex;
-    justify-content: center;
-    align-items: center;
-    color: greenyellow;
-    text-shadow: 15px 5px 2px rgba(0,0,0,0.75);
-    box-shadow: 5px 5px 5px 0px rgba(0,0,0,0.75);
+.botonlink:hover{
+   -moz-box-shadow: 10px 10px 41px 28px rgba(0, 0, 0, 0.737);
+box-shadow: 5px 5px 15px 8px rgba(0, 0, 0, 0.76);
 }
-.contenedor{
-   text-align: center;
-}
+
+
+
 
 

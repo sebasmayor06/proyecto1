@@ -1,0 +1,26 @@
+.padre{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+} 
+
+.otra{
+    text-align: center;
+    background-color: rgba(118, 13, 156, 0.315);
+    width: 1200px;
+    padding: 150px;
+    box-sizing: border-box;
+    margin:20px;
+    border-radius: 20px;
+    font-family: 'Gloria Hallelujah', cursive;
+    font-size: 2rem;
+    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    text-shadow: 8px 8px 4px black, 0 0 22px black ;
+    color:greenyellow;
+}
+
+.imagen{
+width: 500px;
+height: 500px;
+}

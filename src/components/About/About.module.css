@@ -1,0 +1,19 @@
+.contenedor{
+    color:greenyellow;
+    text-align: center;
+    margin: 100px;
+    
+}
+
+.div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.p{
+    color: greenyellow;
+    width: 800px;
+    text-align: center;
+    font-size: 35px;
+}

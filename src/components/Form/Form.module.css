@@ -1,0 +1,79 @@
+.contenedor {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.Bienvenida {
+    background-color: black;
+    font-family: 'Gloria Hallelujah', cursive;
+    font-size: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: greenyellow;
+    text-shadow: 15px 5px 2px rgba(0, 0, 0, 0.75);
+    box-shadow: 5px 5px 5px 0px rgba(0, 0, 0, 0.75);
+}
+
+.boton {
+    font-family: 'Gloria Hallelujah', cursive;
+    background-color: rgba(64, 103, 6, 0.68);
+    border-radius: 5px;
+    color: rgb(255, 255, 255);
+    font-size: large;
+    box-shadow: 5px 5px 5px 0px rgba(0, 0, 0, 0.75);
+    width: 200px;
+    height: 50px;
+    margin: 25px
+}
+
+.boton:hover {
+    -moz-box-shadow: 10px 10px 41px 28px rgba(81, 144, 33, 0.76);
+    box-shadow: 10px 10px 41px 28px rgba(81, 144, 33, 0.76);
+}
+
+
+.label {
+    color: greenyellow;
+    font-size: 20px;
+    margin: 20px;
+
+
+}
+
+
+
+.contenedorlogin {
+    text-align: center;
+    background-color: rgba(118, 13, 156, 0.315);
+    width: 600px;
+    padding: 150px;
+    box-sizing: border-box;
+    margin: 20px;
+    border-radius: 20px;
+}
+
+.Perror {
+    color: greenyellow;
+    font-size: 20px;
+    margin: 5px 0px 40px 0px;
+}
+
+.Denegado {
+    background-color: rgba(255, 0, 0, 0.247);
+    color: white;
+    font-size: 20px;
+    margin: 20px;
+    border-radius: 20px;
+}
+
+.Aprovado {
+    background-color: rgba(172, 255, 47, 0.363);
+    color: white;
+    font-size: 20px;
+    margin: 20px;
+    border-radius: 20px;
+}
