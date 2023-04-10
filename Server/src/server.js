@@ -3,7 +3,9 @@ const morgan = require("morgan");
 const router = require('./routes/index');
 const server = express();
 const PORT = 3001;
-const cors = require ("cors")
+const cors = require ("cors");
+const {conn} = require("./DB_connection");
+
 
 server.use(express.json());
 server.use(morgan("dev"));
@@ -11,9 +13,13 @@ server.use(cors());
 server.use("/",router)
 
 
-server.listen(PORT, () => {
-   console.log('Server raised in port: ' + PORT);
-});
+conn.sync({alter:true}).then(()=>
+   console.log ('DataBase Connected'),
+   server.listen(PORT, () => {
+      console.log('Server raised in port: ' + PORT)
+   })
+);
+
 
 
 
