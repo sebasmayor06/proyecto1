@@ -1,4 +1,4 @@
-const { DataTypes, DATE } = require('sequelize');
+const { DataTypes } = require('sequelize');
 
 module.exports = (sequelize) => {
    sequelize.define('Favorite', {
@@ -11,7 +11,7 @@ module.exports = (sequelize) => {
       },
 
       name: {
-         type: DataTypes.INTEGER,
+         type: DataTypes.STRING,
          allowNull:false
       },
 

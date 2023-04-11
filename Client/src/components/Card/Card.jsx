@@ -15,16 +15,16 @@ function Card({ id, name, gender, species, image, onClose, myFavorites }) {
 
 
 
-   const addFavorite = (character) => {
-      axios.post('http://localhost:3001/rickandmorty/fav', character)
+   const addFavorite = async(character) => {
+   await axios.post('http://localhost:3001/rickandmorty/fav', character)
       dispatch(getfavorites())
-      .then((res)=> console.log('todo salio bien'))
+      alert('todo salio bien')
    };
    
-   const removeFavorite =(id) => {
-      axios.delete(`http://localhost:3001/rickandmorty/fav/${id}`)
+   const removeFavorite =async(id) => {
+   await axios.delete(`http://localhost:3001/rickandmorty/fav/${id}`)
       dispatch(getfavorites())
-      .then((res) => console.log('se ha eliminado exitosamente'))
+      alert ("Se ha Eliminado");
    }
 
 

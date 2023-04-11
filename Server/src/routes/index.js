@@ -2,11 +2,19 @@ const {Router} = require("express");
 const router = Router();
 const getCharById = require('../controllers/getCharById');
 const getCharDetail = require('../controllers/getCharDetail');
+const login = require("../controllers/login")
+const postUser = require ('../controllers/postUser')
+const postFav = require("../controllers/postFav")
 let favs = require("../utils/favs")
 
 router.get("/character/:id",getCharById)
 
 router.get("/detail/:id",getCharDetail)
+
+router.get("/rickandmorty/login", login)
+router.post("/rickandmorty/login",postUser )
+
+router.post("/rickandmorty/fav", postFav)
 
 router.post("/rickandmorty/fav",(req,res)=>{
 favs.push(req.body);
